@@ -123,6 +123,23 @@ body.cold-bg {
 .weather{
     display: none;
 }
+footer {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(4, 8, 61);
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    opacity: 0.7;
+    white-space: nowrap; /* 💡 Keeps text in one line */
+}
+
+footer:hover {
+    opacity: 1;
+}
+
 /* 🔹 Tablets and below (up to 768px) */
 @media (max-width: 768px) {
   .card {
@@ -232,19 +249,4 @@ body.cold-bg {
     font-size: 20px;
   }
 }
-footer {
-    position: fixed;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: rgb(4, 8, 61);
-    font-size: 14px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    opacity: 0.7;
-    white-space: nowrap; /* 💡 Keeps text in one line */
-}
 
-footer:hover {
-    opacity: 1;
-}
